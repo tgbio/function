@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import re
 import subprocess
@@ -5,6 +7,8 @@ import subprocess
 from Bio.Blast import NCBIXML
 from Bio import Entrez
 from Bio import SeqIO
+
+#bogus stuff here 
 
 genotypes = ["Cvi", "Ler"]
 roi = {1:[[174952, 3112850], [23698501, 24905939]]} #hardwired, change to accept a variable from another script
