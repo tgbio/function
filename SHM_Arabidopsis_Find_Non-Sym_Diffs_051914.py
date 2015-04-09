@@ -40,7 +40,7 @@ from Bio import SeqFeature
 #from httplib import HTTPException
 
 # <codecell>
-##this takes the file ordered_SNP_pos.csv (which is NOT ordered coming out of SHM_Arabidopsis_Good_SNPs_to_csv_05-06-14.py, but csv ordered by hand)
+##this takes the file ordered_SNP_pos.csv (which is NOT ordered -by chrom, then pos- coming out of SHM_Arabidopsis_Good_SNPs_to_csv_05-06-14.py, but csv ordered by hand)
 
 ordered_snp_list = [[],[],[],[],[]]
 with open("ordered_SNP_pos.csv", "rU") as o_snp:
